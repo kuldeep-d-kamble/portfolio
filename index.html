@@ -9,8 +9,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://source.unsplash.com/1600x900/?technology,code') no-repeat center center fixed;
-            background-size: cover;
+            background-color: lightgreen; /* Changed background color to light green */
             color: white;
             display: flex;
             justify-content: center;
@@ -62,6 +61,11 @@
 
         ul li {
             margin-bottom: 8px;
+            transition: background-color 0.3s ease; /* Added transition for hover effect */
+        }
+
+        ul li:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Added hover effect for skills */
         }
 
         .section p, .section ul {
